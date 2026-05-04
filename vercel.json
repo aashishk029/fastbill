@@ -2,7 +2,12 @@
   "buildCommand": "next build",
   "outputDirectory": ".next",
   "env": {
-    "NEXT_PUBLIC_SUPABASE_URL": "@supabase_url",
-    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "@supabase_key"
+    "NEXT_PUBLIC_SUPABASE_URL": "https://gcaxtqrrpztnperlvmrb.supabase.co",
+    "NEXT_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_ho8iXpYibgYzVmlQFjY25A_ffC3wHt9"
+  },
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
   }
 }
