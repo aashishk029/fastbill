@@ -2,7 +2,10 @@
 const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
-  // i18n routing handled in middleware, not in next.config
+  // Disable all i18n routing - we'll handle language selection in the app
+  i18n: undefined,
+  // Explicitly use App Router
+  appDir: true,
 }
 
 module.exports = nextConfig
